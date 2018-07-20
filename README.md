@@ -1,28 +1,34 @@
-# Project Overview
+# Feed Reader Testing Project
 
+## Table of Contents
+* [Project Overview](#projoverview)
+* [Why this Project?](#whyproject)
+* [What will I learn?](#whatlearn)
+* [How will this help my career?](#howhelp)
+* [How will I complete this project?](#howhcomplete)
+* [Installation](#install)
+
+<a name="projoverview"></a>
+## Project Overview
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
 
-
+<a name="whyproject"></a>
 ## Why this Project?
-
 Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
 
 Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
 
-
+<a name="whatlearn"></a>
 ## What will I learn?
-
 You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
 
-
+<a name="howhelp"></a>
 ## How will this help my career?
-
 * Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
 * Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
 
-
-# How will I complete this project?
-
+<a name="howhcomplete"></a>
+## How will I complete this project?
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
 1. Take the JavaScript Testing [course](https://www.udacity.com/course/ud549)
@@ -46,3 +52,13 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass. 
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+
+<a name="install"></a>
+## Installation
+1. Use git clone to clone project.
+```
+$ git clone https://github.com/arpelt/frontend-nanodegree-feedreader.git
+```
+Or press the "Clone or download" button and select "Download ZIP".
+
+2. Load the `index.html` file in your browser.
